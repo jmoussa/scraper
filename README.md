@@ -1,7 +1,13 @@
 # Web Scraper
 
-I'm building some kind of webscraper with python and scapy. Will hopefully be the start of a nice data pipeline. Until then, this readme remains barren.
+I'm building some kind of webscraper with python and scapy. Will hopefully be the start of a nice data pipeline.
 
+
+## Yelp Scraper
+
+Scrapes reviews from restaurants in the area.
+Will modify later on to accept location as input.
+Maybe create a restaurant picker application.
 
 ## Running the scraper
 
@@ -11,4 +17,5 @@ In order to run you will use the scrapy cli and enter the following. After it ru
 
 ```bash
 scrapy crawl quotes
+scrapy crawl yelp 
 ```

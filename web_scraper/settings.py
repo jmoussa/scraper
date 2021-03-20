@@ -12,7 +12,7 @@ BOT_NAME = "web_scraper"
 SPIDER_MODULES = ["web_scraper.spiders"]
 NEWSPIDER_MODULE = "web_scraper.spiders"
 FEED_FORMAT = "json"
-FEED_URI = "scraper.json"
+FEED_URI = "scraped_results.json"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'web_scraper (+http://www.yourdomain.com)'
